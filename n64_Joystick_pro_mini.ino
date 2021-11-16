@@ -8,15 +8,15 @@ int Dc = 0;
 
 void setup() {
   Serial.begin(9600);
-pinMode(9, OUTPUT); // // joystick pin 1 - left to right
-pinMode(6, OUTPUT); // on the n64 controller PCB
-pinMode(5, OUTPUT); 
-pinMode(3, OUTPUT); 
+DDRB |= (1<<DDB1); // // joystick pin 1 - left to right
+DDRD |= (1<<DDD6); // on the n64 controller PCB
+DDRD |= (1<<DDD5);
+DDRD |= (1<<DDD3);
 
-pinMode(12, INPUT); // up
-pinMode(11, INPUT); // left
-pinMode(10, INPUT); // right
-pinMode(8, INPUT); // down
+DDRB &= ~(1<<DDB4); // up
+DDRB &= ~(1<<DDB3); // left
+DDRB &= ~(1<<DDB2); // right
+DDRB &= ~(1<<DDB0); // down
 
 
 }
