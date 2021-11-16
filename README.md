@@ -7,6 +7,6 @@ X-, Voltage, GND, X+, Y+, Y-
 
 GPIO : 9, 6, 5, 3
 
-The GPIO output pins are wired to the AXIS pins Left to Right. Ground has to be shared across the controller and microcontroller of course. 
+The GPIO output pins are wired to the AXIS pins Left to Right. Ground has to be shared across the controller and microcontroller.
 
 
