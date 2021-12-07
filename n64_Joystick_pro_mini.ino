@@ -32,8 +32,8 @@ void loop() {
   if(!(PINB &(0b000100)) || H < 461){
     if(Lc < 65){ // Dont send too many pulses
       PORTB |= 1<<1; 
-      _delay_us(4);  // when converting to baremetal the code ran too fast for the n64 controller to see the pulses
-      PORTD |= 1<<6; // so delays are needed to make the pulses the length of a call for digitalWrite()
+      _delay_us(4);  
+      PORTD |= 1<<6; 
       _delay_us(4);
       PORTB &= ~(1<<1); 
       _delay_us(4);
