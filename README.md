@@ -1,4 +1,4 @@
-#AVR & RP2040 N64-Quadrature-Encoder-Emulator
+<h1> AVR & RP2040 N64-Quadrature-Encoder-Emulator </h1>
 
 This Sketch emulates the N64 controller's quadrature encoder. If using a 5 Volt microcontroller there needs to be a logic level converter between the GPIO outputs and the Quadrature Encoder input pins on the N64 controller. 
 
