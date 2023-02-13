@@ -10,4 +10,6 @@ X-, Voltage, GND, X+, Y+, Y-
 
 The GPIO output pins are wired to the AXIS pins Left to Right. Ground has to be shared across the controller and microcontroller.
 
+Footage of the program working with the N64 controller's own DPAD and an OG XBOX Joystick : https://www.youtube.com/watch?v=4NJro13KhlE
+
 
